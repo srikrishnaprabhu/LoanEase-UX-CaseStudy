@@ -10,4 +10,3 @@ Last Updated: YYYY-MM-DD
 
 Author: Sri Krishna Prabhu Kasinadhuni
 
-Reviewer: ChatGPT (Mentor)
