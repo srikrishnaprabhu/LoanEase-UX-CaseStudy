@@ -1,3 +1,0 @@
-This is a Git restore practice file.
-This line is a mistake.
-This change should be discarded.
