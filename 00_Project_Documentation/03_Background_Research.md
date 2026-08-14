@@ -2,96 +2,147 @@
 
 # 03 Background Research
 
-Version: 0.1  
-Status: Draft  
-Last Updated: 2026-08-01  
+Version: 1.0  
+Status: Complete  
+Last Updated: 2026-08-12  
 Author: Sri Krishna Prabhu Kasinadhuni  
 
 ---
 
 ## Purpose
 
-This document provides the background and context for the LoanEase project. It explains current trends in digital loan applications, identifies common usability challenges, and establishes why a user-centred redesign is valuable.
+This document establishes the background and context for the LoanEase project.
+
+It separates the initial understanding of the problem from findings that were later established through primary research.
 
 ---
 
 ## Industry Context
 
-Digital transformation has significantly changed the way financial institutions deliver services. Loan applications that once required multiple visits to a bank branch can now be completed through websites and mobile applications.
+Digital transformation has changed the way financial institutions deliver services.
 
-While digital platforms improve accessibility and convenience, they also introduce new usability challenges that can affect user confidence and satisfaction.
+Loan applications that previously required visits to a bank branch can increasingly be initiated or completed through websites and mobile applications.
+
+Digital channels can improve accessibility and convenience, but financial applications can also involve complex terminology, eligibility requirements, documentation, approval processes, and important financial decisions.
+
+These characteristics make clarity and transparency important UX considerations.
 
 ---
 
-## Current Challenges
+## Initial Problem Context
 
-Research and user feedback indicate several recurring challenges associated with digital loan applications:
+Before conducting primary research, the project identified several potential areas of difficulty:
 
-- Limited visibility into application progress.
-- Complex eligibility requirements.
-- Confusing financial terminology.
-- Repetitive document submission.
-- Lengthy approval timelines.
-- Inconsistent communication across channels.
+- Understanding eligibility requirements.
+- Understanding financial terminology.
+- Managing required documentation.
+- Knowing the status of an application.
+- Understanding approval timelines.
+- Receiving consistent communication.
 
-These challenges increase uncertainty and negatively influence the overall user experience.
+These were treated as areas for investigation rather than confirmed user problems.
 
 ---
 
 ## Why UX Matters
 
-Loan applications involve important financial decisions that users may complete only occasionally. Unlike frequently used applications, users may be unfamiliar with the process and require additional guidance.
+Loan applications involve important financial decisions and may not be completed frequently by individual users.
 
-A user-centred design approach helps by:
+Users may therefore require more guidance than they would in frequently used digital services.
 
-- Simplifying complex processes.
-- Improving transparency.
-- Reducing confusion.
-- Increasing user confidence.
-- Supporting informed decision-making.
+A user-centred design approach can help explore opportunities to:
 
----
-
-## Project Motivation
-
-The motivation behind LoanEase is to demonstrate how structured UX research can be translated into practical design improvements.
-
-Rather than making assumptions about user needs, the project uses research findings to guide every major design decision.
-
-This ensures that proposed solutions address real user challenges rather than perceived problems.
+- Simplify complex processes.
+- Improve transparency.
+- Reduce unnecessary uncertainty.
+- Explain financial information clearly.
+- Support informed decision-making.
+- Improve confidence during the application journey.
 
 ---
 
-## Research Approach
+## Primary Research Approach
 
-To understand the problem comprehensively, the project adopted a mixed-method UX research approach consisting of:
+The project subsequently used a mixed-method approach consisting of:
 
-- Online survey.
+- Online survey research.
 - Semi-structured interviews.
 - Quantitative analysis.
 - Qualitative thematic analysis.
 
-Each research activity contributed unique insights into user behaviour, expectations, and pain points.
+Observation was not conducted because of ethical and privacy considerations associated with financial applications and personal banking information.
 
 ---
 
-## Expected Impact
+## What Primary Research Confirmed
 
-By applying user-centred design principles, LoanEase aims to:
+The subsequent research identified recurring issues around:
 
-- Improve transparency throughout the application process.
-- Reduce uncertainty during approval.
-- Simplify document submission.
-- Improve understanding of eligibility requirements.
-- Increase trust in digital financial services.
+- Long approval waiting periods.
+- Lack of application status updates.
+- Eligibility confusion.
+- Documentation challenges.
+- Limited transparency around fees and loan terms.
+- Communication problems.
+- Difficulty understanding financial terminology.
+- Trust concerns when uploading sensitive documents.
+
+The survey and interviews showed strong convergence around uncertainty and communication during the application process.
 
 ---
 
-## Key Takeaways
+## Digital Adoption
 
-- Digital loan applications improve accessibility but still present significant usability challenges.
-- User-centred design provides an opportunity to improve transparency, trust, and overall experience.
-- Research-driven design decisions increase the likelihood of creating meaningful and effective solutions.
+The research did not indicate that users fundamentally reject digital loan applications.
+
+Instead, 36 of 41 valid survey respondents indicated that they would consider using a well-designed digital loan application platform in the future.
+
+This suggests that the opportunity is not simply to encourage digital adoption, but to improve the quality, clarity, transparency, and confidence of the digital experience.
+
+---
+
+## Research-to-Design Direction
+
+The research identified several potential design opportunities:
+
+- Real-time application status tracking.
+- Loan eligibility checker.
+- EMI calculator.
+- Document upload progress.
+- Estimated approval timeline.
+- Live support.
+- Plain-language explanations.
+- Transparent fee and interest information.
+
+These opportunities will be prioritised during research synthesis and subsequent design work.
+
+---
+
+## Important Distinction
+
+This document contains two types of information:
+
+### Initial Context
+
+Potential problems identified before primary research.
+
+### Research-Supported Findings
+
+Problems and opportunities identified or strengthened through the actual survey and interview research.
+
+Keeping these separate helps prevent hindsight bias and makes the UX case study more transparent.
+
+---
+
+## Limitations
+
+The research has several limitations:
+
+- The survey analysed 41 valid responses.
+- Twelve semi-structured interviews were conducted.
+- Participants may not represent all geographic regions or banking experiences.
+- Observation was not conducted because of financial privacy and ethical considerations.
+- The research represents user experiences during the project period.
 
 ---
 
@@ -99,7 +150,9 @@ By applying user-centred design principles, LoanEase aims to:
 
 - 01_Project_Initiation.md
 - 02_Problem_Statement.md
+- 04_Assumptions_Log.md
 - 05_Research_Planning.md
+- 11_Retrospective.md
 
 ---
 
@@ -107,4 +160,5 @@ By applying user-centred design principles, LoanEase aims to:
 
 | Version | Date | Author | Summary |
 |---------|------|--------|---------|
-| 0.1 | 2026-08-01 | Sri Krishna Prabhu Kasinadhuni | Initial draft created. |
+| 0.1 | 2026-08-01 | Sri Krishna Prabhu Kasinadhuni | Initial background research draft. |
+| 1.0 | 2026-08-12 | Sri Krishna Prabhu Kasinadhuni | Clarified the distinction between initial context and later research-supported findings. |

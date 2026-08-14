@@ -2,134 +2,178 @@
 
 # 02 Problem Statement
 
-Version: 0.1  
-Status: Draft  
-Last Updated: 2026-07-31  
+Version: 1.0  
+Status: Complete  
+Last Updated: 2026-08-12  
 Author: Sri Krishna Prabhu Kasinadhuni  
 
 ---
 
 ## Purpose
 
-This document defines the primary problem that the LoanEase project aims to solve. It describes the challenges experienced by users during digital loan applications and explains why these challenges warrant a user-centred design approach.
+This document defines the problem space investigated by the LoanEase project.
+
+It distinguishes between the initial problem hypothesis identified at project initiation and the evidence gathered through subsequent user research.
 
 ---
 
-## Problem Statement
+## Initial Problem Hypothesis
 
-Digital loan application platforms have simplified access to financial services; however, many users continue to experience confusion, uncertainty, and frustration throughout the application journey.
+At the beginning of the project, digital loan application experiences were hypothesised to create confusion and uncertainty for users.
 
-Common challenges include unclear eligibility criteria, complex financial terminology, inconsistent communication, repetitive document submission, limited application status visibility, and lengthy approval timelines.
+Potential areas of difficulty included:
 
-These usability issues reduce user confidence, increase perceived complexity, and negatively affect the overall customer experience.
+- Understanding eligibility criteria.
+- Knowing which documents are required.
+- Understanding financial terminology.
+- Knowing the current application status.
+- Understanding how long approval may take.
+- Receiving clear and consistent communication.
 
-LoanEase seeks to address these challenges through evidence-based UX research and human-centred design.
+These were treated as hypotheses to be investigated through research.
 
 ---
 
-## Business Problem
+## Research-Supported Problem
 
-Financial institutions invest significantly in digital banking services to improve accessibility and operational efficiency.
+The research subsequently demonstrated recurring issues around:
 
-However, poor user experience during the loan application process can result in:
+- Long approval waiting periods.
+- Lack of application status visibility.
+- Difficulty understanding eligibility criteria.
+- Repetitive or confusing document submission.
+- Limited transparency around fees and loan terms.
+- Inconsistent communication across channels.
+- Difficulty understanding some financial terminology.
+- Concerns about trust when uploading sensitive documents.
 
-- Reduced customer satisfaction.
-- Increased support requests.
-- Lower completion rates.
-- Reduced trust in digital channels.
-- Higher customer abandonment during application.
-
-Improving usability benefits both customers and financial institutions.
+The survey and interviews showed that uncertainty was particularly significant during the waiting and approval stages.
 
 ---
 
 ## User Problem
 
-Users frequently encounter uncertainty throughout the digital loan application journey.
+Users need to understand what is happening during a loan application and what they need to do next.
 
-Common user concerns include:
+Common concerns identified through research included:
 
 - Am I eligible?
 - Which documents are required?
-- How long will approval take?
 - Has my application been received?
-- Why hasn't the status changed?
-- What do these financial terms mean?
-
-The absence of clear guidance and timely communication contributes to frustration and reduced confidence.
-
----
-
-## Why This Problem Matters
-
-The loan application process often involves important financial decisions.
-
-When users feel uncertain or confused, they may:
-
-- Delay financial decisions.
-- Contact customer support unnecessarily.
-- Abandon digital applications.
-- Prefer offline alternatives.
-- Lose confidence in digital financial services.
-
-Improving the user experience can reduce these barriers while increasing trust and usability.
+- What stage is my application currently in?
+- How long might approval take?
+- Why has the status not changed?
+- What do the loan terms and charges mean?
+- Can I trust the platform with my documents?
 
 ---
 
-## Evidence Supporting the Problem
+## Key Research Evidence
 
-This project validates the problem using:
+The survey received 42 responses, of which 41 were included in the analysis after excluding one response that did not provide consent.
 
-- Quantitative survey research.
-- Semi-structured interviews.
-- Thematic analysis.
-- UX research synthesis.
+The most frequently reported challenges included:
 
-Research findings are documented separately within the Research section of this project.
+| Challenge | Responses |
+|---|---:|
+| Lengthy approval process | 10 |
+| Understanding eligibility criteria | 9 |
+| Lack of application status updates | 7 |
+| Collecting required documents | 6 |
+| Poor customer support | 5 |
+| Technical issues while applying | 4 |
+| Hidden charges or unclear fees | 4 |
+| Difficulty understanding loan terms | 4 |
+
+The most difficult stage reported was waiting for approval.
+
+The most requested feature was real-time application status tracking, selected by 27 participants.
+
+Other highly requested features included:
+
+- EMI calculator — 26
+- Loan eligibility checker — 25
+- Live chat/customer support — 24
+- Document upload progress — 22
+- Estimated approval timeline — 21
+
+The survey also found that 36 of 41 participants would consider using a well-designed digital loan application platform in the future.
 
 ---
 
-## Project Response
+## Interview Evidence
 
-LoanEase addresses the identified problems by proposing a digital experience focused on:
+Twelve semi-structured interviews were conducted.
 
-- Transparency
-- Simplicity
-- Accessibility
-- Trust
-- Continuous communication
-- User-centred workflows
+The interviews identified recurring themes around:
 
-These principles guide all subsequent design decisions.
+- Approval delays and lack of updates.
+- Eligibility and interest-rate confusion.
+- Documentation challenges.
+- Lack of transparency.
+- Communication issues.
+- Difficulty understanding loan terms and charges.
+
+These qualitative findings supported the major patterns identified in the survey.
+
+---
+
+## Problem Definition
+
+Based on the research, the central UX problem can be expressed as:
+
+> **Users are generally willing to use digital loan services, but uncertainty during the application process reduces confidence. Users need clearer eligibility guidance, transparent progress information, understandable financial information, reliable document handling, and consistent communication throughout the journey.**
+
+---
+
+## Design Challenge
+
+How might we design a digital loan application experience that reduces uncertainty and helps users confidently understand, complete, and track their loan application?
 
 ---
 
 ## Problem Boundaries
 
-This project focuses on improving the user experience of the loan application journey.
+LoanEase focuses on the user experience surrounding the digital loan application journey.
 
 The project does not attempt to redesign:
 
 - Banking regulations.
+- Credit scoring systems.
 - Loan approval policies.
-- Credit scoring mechanisms.
 - Backend processing systems.
 - Financial products themselves.
+- Production banking infrastructure.
 
-The focus remains on the interaction between users and the digital platform.
+The focus remains on the interaction between users and the digital experience.
 
 ---
 
-## Success Definition
+## Research Limitation
 
-The identified problem will be considered successfully addressed if the proposed design enables users to:
+The research does not represent every type of loan applicant or banking customer.
 
-- Understand the application process.
-- Determine eligibility more easily.
-- Submit documents confidently.
-- Track application progress.
-- Understand loan terminology.
-- Complete tasks with reduced uncertainty.
+The survey analysed 41 valid responses and included participants primarily from the represented age and occupation groups.
+
+Observation was not conducted because of ethical and privacy considerations associated with observing financial applications or personal banking activity.
+
+---
+
+## Design Implications
+
+The problem definition suggests that the design should explore:
+
+- Real-time application status tracking.
+- Clear eligibility guidance.
+- Transparent loan and fee information.
+- Document upload progress.
+- Estimated approval timelines.
+- Timely notifications.
+- Accessible explanations of financial terminology.
+- Reliable support mechanisms.
+- Trust and security cues when handling sensitive documents.
+
+These opportunities will be evaluated and prioritised during the design phase.
 
 ---
 
@@ -137,15 +181,9 @@ The identified problem will be considered successfully addressed if the proposed
 
 - 01_Project_Initiation.md
 - 03_Background_Research.md
+- 04_Assumptions_Log.md
 - 05_Research_Planning.md
-
----
-
-## Key Takeaways
-
-- The project addresses usability challenges in digital loan applications.
-- Transparency and communication are central design priorities.
-- The focus is on improving user experience rather than banking operations.
+- 11_Retrospective.md
 
 ---
 
@@ -153,4 +191,5 @@ The identified problem will be considered successfully addressed if the proposed
 
 | Version | Date | Author | Summary |
 |---------|------|--------|---------|
-| 0.1 | 2026-07-31 | Sri Krishna Prabhu Kasinadhuni | Initial draft created. |
+| 0.1 | 2026-07-31 | Sri Krishna Prabhu Kasinadhuni | Initial problem statement draft. |
+| 1.0 | 2026-08-12 | Sri Krishna Prabhu Kasinadhuni | Added distinction between initial hypotheses and research-supported findings and incorporated verified research evidence. |

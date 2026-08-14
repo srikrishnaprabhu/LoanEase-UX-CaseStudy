@@ -2,18 +2,18 @@
 
 # 01 Project Initiation
 
-Version: 0.1  
-Status: Draft  
-Last Updated: 2026-07-31  
+Version: 1.0  
+Status: Complete  
+Last Updated: 2026-08-12  
 Author: Sri Krishna Prabhu Kasinadhuni  
 
 ---
 
 ## Purpose
 
-This document records the initiation of the LoanEase UX Case Study. It explains why the project was started, the problems it intends to solve, the project vision, scope, stakeholders, expected deliverables, and success metrics.
+This document records the initiation of the LoanEase UX Case Study. It explains why the project was started, the problem space, project vision, scope, stakeholders, expected outcomes, and constraints.
 
-It serves as the foundation for all subsequent research, design, testing, and documentation activities.
+The original project began from a university assignment brief and was subsequently developed as a broader portfolio-oriented UX case study.
 
 ---
 
@@ -21,29 +21,43 @@ It serves as the foundation for all subsequent research, design, testing, and do
 
 LoanEase is a conceptual UX case study focused on improving the digital loan application experience.
 
-The project investigates the challenges users encounter while applying for loans through digital platforms and proposes evidence-based design solutions that improve transparency, usability, trust, and overall user experience.
+The project investigates the challenges users encounter while applying for loans through digital platforms and explores evidence-based design solutions that improve transparency, usability, trust, and overall user experience.
 
-The project follows a user-centred design process beginning with research and progressing through design, prototyping, usability testing, and reflection.
+The project follows a user-centred design process beginning with problem definition and research and progressing toward research synthesis, personas, user journeys, interaction design, prototyping, usability testing, iteration, and final case-study documentation.
+
+---
+
+## Project Origin
+
+The initial problem space was provided through a university assignment titled:
+
+**LoanEase – Simplifying Digital Loan Applications**
+
+The original assignment required a user research summary, two personas, one user journey map, interaction design, a high-fidelity prototype, and a team contribution summary.
+
+Rather than treating the assignment only as a submission exercise, the project was developed further as a portfolio case study demonstrating the reasoning and process behind UX decisions.
+
+The original assignment brief is retained as project reference material outside the public repository.
 
 ---
 
 ## Vision Statement
 
-To design a transparent, intuitive, and trustworthy digital loan application experience that enables users to confidently apply for and track loans with minimal confusion and maximum clarity.
+To design a transparent, intuitive, and trustworthy digital loan application experience that enables users to confidently apply for and track loans with minimal confusion and uncertainty.
 
 ---
 
 ## Business Context
 
-Financial institutions are increasingly adopting digital channels for loan applications. While these platforms provide convenience, users often experience uncertainty during the application process due to limited communication, complex eligibility criteria, confusing financial terminology, and lengthy approval timelines.
+Financial institutions increasingly provide loan services through digital channels. Digital platforms can improve accessibility and convenience, but the loan application process can still involve uncertainty around eligibility, documentation, approval timelines, communication, fees, and loan terminology.
 
-LoanEase aims to explore these challenges through structured UX research and demonstrate how evidence-based design can improve the overall customer experience.
+LoanEase explores these challenges through UX research and uses the resulting evidence to identify opportunities for improving the customer experience.
 
 ---
 
-## Problem Summary
+## Initial Problem Summary
 
-Users frequently encounter challenges during digital loan applications, including:
+At project initiation, the following potential challenges were identified:
 
 - Difficulty understanding eligibility criteria.
 - Limited visibility into application progress.
@@ -52,38 +66,40 @@ Users frequently encounter challenges during digital loan applications, includin
 - Delays during approval.
 - Lack of transparency throughout the process.
 
-These issues negatively impact user confidence and satisfaction.
+These were treated as initial problem assumptions and were subsequently investigated through user research.
 
 ---
 
 ## Project Objectives
 
-The primary objectives of this project are to:
+The objectives of the project are to:
 
-- Understand user behaviour during digital loan applications.
+- Understand user experiences during digital loan applications.
 - Identify major pain points through UX research.
+- Separate initial assumptions from evidence-supported findings.
 - Translate research findings into actionable design opportunities.
 - Design an intuitive and user-friendly loan application experience.
 - Validate design decisions through usability testing.
-- Document the complete UX process as a professional case study.
+- Document the UX process as a professional portfolio case study.
+- Demonstrate evidence-based design reasoning.
 
 ---
 
 ## Stakeholders
 
-Primary Stakeholders
+### Primary Stakeholders
 
 - Loan applicants
 - Potential first-time borrowers
-- Returning customers
+- Returning loan applicants
 
-Secondary Stakeholders
+### Secondary Stakeholders
 
 - Financial institutions
 - Loan processing teams
 - Customer support teams
-- UX Designers
-- Product Managers
+- UX designers
+- Product managers
 
 ---
 
@@ -91,19 +107,22 @@ Secondary Stakeholders
 
 ### In Scope
 
-- UX Research
-- Survey Analysis
-- Interview Analysis
+- UX research
+- Survey analysis
+- Interview analysis
+- Research synthesis
 - Personas
-- Empathy Maps
-- User Journey Mapping
-- Information Architecture
-- User Flows
+- Empathy maps where useful
+- User journey mapping
+- User flows
+- Information architecture
 - Wireframes
-- High-Fidelity UI Design
-- Interactive Prototype
-- Usability Testing
-- Final UX Case Study
+- High-fidelity UI design
+- Interactive prototype
+- Usability testing
+- Design iteration
+- Final UX case study
+- Portfolio documentation
 
 ### Out of Scope
 
@@ -112,81 +131,111 @@ Secondary Stakeholders
 - Database implementation
 - Production deployment
 - Banking system integration
+- Credit scoring implementation
+- Loan approval policy
 - Regulatory compliance implementation
 
 ---
 
-## Expected Deliverables
+## Expected Portfolio Deliverables
 
-The project is expected to produce the following deliverables:
+The project is intended to produce:
 
 - Research documentation
-- UX research findings
+- Research synthesis
 - Personas
-- Empathy maps
-- User journey maps
+- User journeys
 - User flows
 - Information architecture
 - Wireframes
 - High-fidelity interface designs
 - Interactive prototype
-- Usability testing report
+- Usability testing results
 - Design iterations
 - Final UX case study
+- Portfolio-ready project presentation
 
 ---
 
-## Success Metrics
+## Success Criteria
 
-The project will be considered successful if it achieves the following:
+The project will be considered successful when it demonstrates:
 
-- Complete UX research documentation.
-- Evidence-based design decisions.
+- Research-supported understanding of users.
+- Clear connection between research findings and design decisions.
 - Consistent UX process documentation.
-- High-quality interactive prototype.
-- Successful usability evaluation.
-- Portfolio-ready case study demonstrating end-to-end UX thinking.
+- An understandable and usable prototype.
+- Evidence from usability evaluation.
+- Iterative improvement based on testing.
+- A professional portfolio case study showing end-to-end UX thinking.
 
 ---
 
 ## Constraints
 
-The following constraints were identified during project initiation:
+The following constraints were identified:
 
 - Limited project timeline.
 - Availability of research participants.
-- Ethical limitations regarding observation of banking activities.
-- Conceptual project without access to real banking systems.
+- Financial and privacy sensitivity of the research subject.
+- Observation could not be conducted because observing real financial or banking activity would involve privacy and ethical concerns.
+- The project is conceptual and does not have access to real banking systems or production data.
 
 ---
 
-## Assumptions
+## Initial Assumptions
 
-The project begins with the following assumptions:
+At project initiation, the following assumptions were identified:
 
 - Users experience friction during digital loan applications.
 - Transparency improves user confidence.
 - Simplifying financial information improves usability.
 - Research findings will provide sufficient evidence to guide design decisions.
 
-These assumptions will be validated through user research.
+These assumptions were treated as hypotheses rather than established facts.
+
+---
+
+## Research Approach
+
+The project used a mixed-method approach consisting of:
+
+- Online survey research.
+- Semi-structured interviews.
+- Quantitative analysis.
+- Qualitative thematic analysis.
+
+Observation was considered but was not conducted because of ethical and privacy considerations associated with financial applications and personal banking information.
 
 ---
 
 ## Dependencies
 
-The success of this project depends on:
+The project depends on:
 
-- Completion of UX research.
-- Availability of participant feedback.
-- Completion of research synthesis.
-- Iterative design and usability testing.
+- Participant feedback.
+- Completion of research analysis.
+- Research synthesis.
+- Design development.
+- Usability testing.
+- Iterative refinement.
 
 ---
 
-## Next Phase
+## Portfolio Direction
 
-Following project initiation, the next activity is defining the problem statement and establishing the research foundation for the project.
+The original assignment provides the starting context for the project, but the intended final outcome is a portfolio-quality UX case study.
+
+The case study should demonstrate not only the final design but also:
+
+- How the problem was understood.
+- How assumptions were formed.
+- How research was conducted.
+- What the research revealed.
+- How decisions were made.
+- How the design evolved.
+- How usability was evaluated.
+- What was learned from the process.
 
 ---
 
@@ -194,7 +243,11 @@ Following project initiation, the next activity is defining the problem statemen
 
 - 02_Problem_Statement.md
 - 03_Background_Research.md
+- 04_Assumptions_Log.md
 - 05_Research_Planning.md
+- 08_Decision_Log.md
+- 09_Project_Timeline.md
+- 11_Retrospective.md
 
 ---
 
@@ -202,4 +255,5 @@ Following project initiation, the next activity is defining the problem statemen
 
 | Version | Date | Author | Summary |
 |---------|------|--------|---------|
-| 0.1 | 2026-07-31 | Sri Krishna Prabhu Kasinadhuni | Initial draft created. |
+| 0.1 | 2026-07-31 | Sri Krishna Prabhu Kasinadhuni | Initial project initiation draft. |
+| 1.0 | 2026-08-12 | Sri Krishna Prabhu Kasinadhuni | Refined to distinguish the original assignment from the portfolio case study and clarify project assumptions, scope, research approach, and constraints. |
